@@ -20,6 +20,7 @@ class dfConsolidated:
     self.dfTot.to_excel(path+'\\TOTAL.xlsx', sheet_name='Datos',index=False)  
     #Escribir codigo que haga la grafica de un servidor
     # Servidor RNEC-MGT-01 - Variable Average Response Time (ms)
+    # self.dfTot = pd.read_excel('../Datos MED/PAC1.xlsx', sheet_name=None, index_col=0)
     valores = self.dfTot[['RNEC-MGT-01'],['Average Response Time (ms)']]
     ax = valores.plot.bar(x="RNEC-MGT-01", y="Variable Average Response Time (ms)", rot = 0)
     plt.show()    

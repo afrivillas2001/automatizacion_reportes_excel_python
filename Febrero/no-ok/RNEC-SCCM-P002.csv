@@ -1,0 +1,6 @@
+"New Analysis Project","=HYPERLINK(""https://solarwinds.une.com.co/ui/perfstack/?charts=0_Orion.Nodes_12789-Orion.CPULoad.MinLoad,0_Orion.Nodes_12789-Orion.CPULoad.MaxLoad,0_Orion.Nodes_12789-Orion.CPULoad.AvgLoad;&startTime=2021-12-15T10:26:00.000Z&endTime=2022-02-15T22:26:00.000Z"")"
+Start,2021-12-15 05:26:00,End,2022-02-15 17:26:00
+
+"Custom Chart"
+Entity,Metric,Date/Time,Value,,Entity,Metric,Date/Time,Value,,Entity,Metric,Date/Time,Value,
+
